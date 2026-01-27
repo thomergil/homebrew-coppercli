@@ -7,16 +7,16 @@ class Coppercli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/thomergil/coppercli/releases/download/v0.2.1/coppercli-v0.2.1-osx-arm64.tar.gz"
-      sha256 "3152f61b3ae585d983dc3efdc1d806e36e27299d9ee2e7eb17cc5e5afd900a29"
+      sha256 "b676752fdaff27a448cd391aed97c5affd5ea8b4a9f5131939eaf3cb45af0a22"
     else
       url "https://github.com/thomergil/coppercli/releases/download/v0.2.1/coppercli-v0.2.1-osx-x64.tar.gz"
-      sha256 "c09dc658914f105a272fddfd67360f181c9ac4b3677a49bbab7ec7a3eaf9ecd1"
+      sha256 "6de2d82bfb3d982f6611f35bb51b6e9169964cfaf60c76ce6ba2201439b36c4d"
     end
   end
 
   on_linux do
     url "https://github.com/thomergil/coppercli/releases/download/v0.2.1/coppercli-v0.2.1-linux-x64.tar.gz"
-    sha256 "4d58ed5c682d66a22b827ea0b11e96e562ff8450ce83502cd3718f844607cc87"
+    sha256 "67571d1db3220d2cf37b4d2fbbe80ade2429ec3524aab2e7ceb796c52548a39a"
   end
 
   def install
