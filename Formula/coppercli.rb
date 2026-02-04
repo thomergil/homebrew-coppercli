@@ -1,22 +1,22 @@
 class Coppercli < Formula
   desc "CLI tool for PCB milling with GRBL CNC machines, featuring auto-leveling"
   homepage "https://github.com/thomergil/coppercli"
-  version "v0.4.0"
+  version "v0.4.0a"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/thomergil/coppercli/releases/download/v0.4.0/coppercli-v0.4.0-osx-arm64.tar.gz"
-      sha256 "90a1e4d6fcb0d1238495bb72eeefadbc3eb0ed7c369e7094649bbb4f89a404b9"
+      url "https://github.com/thomergil/coppercli/releases/download/v0.4.0a/coppercli-v0.4.0a-osx-arm64.tar.gz"
+      sha256 "abda45c1d6a09aac968634e0a16565b7e7952d9b79be8b4844087c949c479c6a"
     else
-      url "https://github.com/thomergil/coppercli/releases/download/v0.4.0/coppercli-v0.4.0-osx-x64.tar.gz"
-      sha256 "6fbac0fbf4ed442bf76e035178ebebaf21bea17689faca131d9a3ea2682636a5"
+      url "https://github.com/thomergil/coppercli/releases/download/v0.4.0a/coppercli-v0.4.0a-osx-x64.tar.gz"
+      sha256 "8e33d8a79124183febd68c56386248006ae7af7afd5ef470a21bfab87dd80a72"
     end
   end
 
   on_linux do
-    url "https://github.com/thomergil/coppercli/releases/download/v0.4.0/coppercli-v0.4.0-linux-x64.tar.gz"
-    sha256 "6c7adc802f6169cd02ebd724f2296c1d374335ac7f5ffcec0dc41cf6c54fbc46"
+    url "https://github.com/thomergil/coppercli/releases/download/v0.4.0a/coppercli-v0.4.0a-linux-x64.tar.gz"
+    sha256 "e27a8c2da6ae5cfdd7f51ccc6a9d8994d003de8db16008b0d44244414aef816e"
   end
 
   def install
